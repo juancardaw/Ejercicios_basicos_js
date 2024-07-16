@@ -8,7 +8,7 @@ console.log(aldeanos[3]);
 aldeanos.push("Cervasio");
 console.log(aldeanos);
 
-//4.3 - Cambia el primer elemento de este array por "Bambina".
+//4.3 - Cambia el primer elemento de este array por "Bambina". //Corregido en otro .js
 aldeanos.shift("Bambina");
 console.log(aldeanos);
 
@@ -16,7 +16,7 @@ console.log(aldeanos);
 aldeanos.reverse();
 console.log(aldeanos);
 
-//4.5 - Cambia a "Narciso" por "Canela" haciendo uso de un método de array.
+//4.5 - Cambia a "Narciso" por "Canela" haciendo uso de un método de array. //Corregido en otro .js
 aldeanos.splice(4, 4, "Canela");
 console.log(aldeanos);
 
