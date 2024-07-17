@@ -6,11 +6,13 @@ console.log(i);
 /*1.2 Crea un bucle for que vaya desde 0 a 9 y muestra el valor de i por consola solo 
 cuando el resto del numero dividido entre 2 sea 0.*/
 for(i = 0; i < 10; i++){
-    let resto = i % 2;
-    if(resto === 0){
-        console.log(division);
+    if(i % 2 == 0){
+        console.log(i);
     }
 }
+//Ejercicio corregido ya que abia entendido mal el enunciado
+
+
 
 /*1.3 Crea un bucle para conseguir dormir contando ovejas. 
 Este bucle tiene que dar 10 vueltas, es decir, 10 console.log.

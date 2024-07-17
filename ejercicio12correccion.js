@@ -16,7 +16,7 @@ const duplicates = [
     const uniques = [];
 
     for(const element of list) {
-        if(!uniques.includes(element)){ //Si uniques NO incluye el elemento de la lista repetido, se cumple la la condicion, y uniques.push(element) lo meteres dentro del nuevo array uniques
+        if(!uniques.includes(element)){ //Si uniques NO incluye el elemento de la lista repetido, se cumple la  condicion, y uniques.push(element) lo metera dentro del nuevo array uniques
             uniques.push(element);
         }
     }
