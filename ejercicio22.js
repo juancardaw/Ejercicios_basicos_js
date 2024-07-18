@@ -1,15 +1,24 @@
 //Sin terminar
+const fruits = ["Strawberry", "Banana", "Orange", "Apple"];
 
+const foodSchedule = [
+  { name: "Heura", isVegan: true },
+  { name: "Salmon", isVegan: false },
+  { name: "Tofu", isVegan: true },
+  { name: "Burger", isVegan: false },
+  { name: "Rice", isVegan: true },
+  { name: "Pasta", isVegan: true },
+];
 
-
-
-let frutasModificadas = []
+const frutasModificadas = []
 
 for (let i = 0; i < foodSchedule.length; i++) {
-        if(foodSchedule.isVegan === false){
-           frutasModificadas = frutita.replace(frutita[i], fruits); //COMENTARIO!!! Revisando, no se porque cojones he puesto "frutita"
+        const fruta = foodSchedule[i];
+
+        if(fruta.isVegan === false){
+          frutasModificadas.push(fruta.name) = fruta.name.replace(fruta.name, fruits);
         }
 }
 
-console.log(frutasModificadas)
-
+console.log(fruta)
+ //No se que cojones estaba haciendo aqui. 

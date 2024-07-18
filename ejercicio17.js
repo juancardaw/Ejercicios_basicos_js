@@ -12,3 +12,4 @@ for (const propiedadAlien in alien) {
     }
 }
 
+//En el archivo de correccion, lo hecho de la manera mas facil y corta, para que sea menos lioso para mi. Aqui en cambio he utilizado el For...in predeterminado de JS.
